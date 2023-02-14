@@ -1,0 +1,56 @@
+.anotherContainer{
+    max-width: 1144px;
+    margin: 0 auto 64px auto;
+    padding: 0 20px;
+
+    .mainContainer{
+        width: 100%;  
+        margin-bottom: 32px;
+        .window{
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 32px;
+            .allPagesContainer{
+                height: 100%;
+                max-width: 313px;
+                min-width: 313px;
+                display: flex;
+                transition: translate;
+                transition-property: transform;
+                transition-duration: 300ms;
+                transition-timing-function: ease-in-out;
+            }
+            
+        }
+       
+        
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        .btn{
+            cursor: pointer;
+        }
+        .btnClosed{
+            background-color: red;
+        }
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .anotherContainer{
+       
+        .mainContainer{
+            height: 284px;
+            .window{
+                .allPagesContainer{
+                    min-width: 266px;
+                    max-width: 266px;
+                }
+            }
+        }
+    }
+    
+}

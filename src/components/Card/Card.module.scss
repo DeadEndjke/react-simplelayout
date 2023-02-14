@@ -1,0 +1,47 @@
+.card{
+    max-width: 373px;
+    max-height: 566px;
+    min-height: 566px;
+    .cardPhoto{
+        padding: 30px 30px 24px 30px;
+    }
+    .heading{
+        padding: 0px 30px 24px 30px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .description{
+        padding: 0px 30px 104px 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: rgba(35, 35, 35, 0.7);
+    }
+}
+
+@media screen and (max-width:800px){
+    .card{
+        max-width: 266px;
+        max-height: 424px;
+        margin-right: 24px;
+        .cardPhoto{
+            max-width: 266px;
+            max-height: 284px;
+            padding: 0;
+            margin-bottom: 24px;
+        }
+        .heading{
+            font-size: 20px;
+            line-height: 28px;
+            padding: 0;
+            padding-bottom: 16px;
+        }
+        .description{
+            font-size: 14px;
+            line-height: 22px;
+            padding: 0;
+            padding-bottom: 24px;
+        }
+    }
+}

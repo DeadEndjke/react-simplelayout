@@ -1,0 +1,11 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    .btn{
+        cursor: pointer;
+    }
+    .btnClosed{
+        background-color: red;
+    }
+}
+

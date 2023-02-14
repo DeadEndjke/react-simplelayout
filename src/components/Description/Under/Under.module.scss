@@ -1,0 +1,24 @@
+
+ul {
+  max-width: 586px;
+  .paragraph {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(35, 35, 35, 0.7);
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+}
+  @media screen and (max-width: 800px) {
+    ul{
+      margin: 0 auto;
+      .paragraph{
+        font-size: 14px;
+        line-height: 22px;
+      }
+    }
+  }

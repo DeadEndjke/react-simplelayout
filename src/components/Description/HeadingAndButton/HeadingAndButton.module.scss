@@ -1,0 +1,47 @@
+.headingAndButton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 73px;
+  .heading{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+
+  }
+  .btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 21px 142px;
+    display: inline-block;
+    background: #659DBD;
+    color: #fff;
+    border: none;
+    width: 354px;
+    height: 64px;
+    &:hover{
+      background: red;
+    }
+  }
+}
+
+@media screen and (max-width:800px){
+  .headingAndButton{
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column;
+    .heading{
+      margin-bottom: 40px;
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .btn{
+      font-size: 16px;
+      line-height: 22px;
+      width: 100%;
+      padding: 0;
+
+    }
+  }
+}
